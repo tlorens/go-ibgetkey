@@ -1,0 +1,1 @@
+int ibgetch( void );
