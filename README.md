@@ -5,7 +5,11 @@ Much like Turbo Pascals ReadKey() function. For use in a while loop.
 ## Usage
 
 ```
-ch := ibkey.ReadKey(false)
+for {
+	ch := ibkey.ReadKey(false)
+	fmt.Printf("[%d][%c]\n", ch, ch);	
+}
+	
 ```
 
 This is a bit hacky, but passing true will pass back keystrokes 
